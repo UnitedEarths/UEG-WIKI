@@ -80,7 +80,7 @@ nav:
           - astronomy/moon/gravitation.md
           - astronomy/moon/2058-event.md
       - 半人马座α星:
-          - astronomy\alpha-centauri\stellar-migration.md
-          - astronomy\alpha-centauri\alpha-centauri.md
-          - astronomy\alpha-centauri\proxima-centauri.md
-      - astronomy\asteroid-belt.md
+          - astronomy/alpha-centauri/stellar-migration.md
+          - astronomy/alpha-centauri/alpha-centauri.md
+          - astronomy/alpha-centauri/proxima-centauri.md
+      - astronomy/asteroid-belt.md
