@@ -81,3 +81,5 @@ nav:
           - astronomy/alpha-centauri/alpha-centauri.md
           - astronomy/alpha-centauri/proxima-centauri.md
       - astronomy/asteroid-belt.md
+  - 地球科学:
+      - geoscience/earth.md
