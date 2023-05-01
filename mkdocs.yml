@@ -1,0 +1,48 @@
+site_name: UEG Wiki
+site_description: UEG Wiki
+site_author: United Earth
+
+repo_name: UEG/UEG-Wiki
+repo_url: https://github.com/UEG/UEG-Wiki
+edit_uri: blob/master/docs/zh/docs/
+
+theme:
+  name: "material"
+  language: zh
+  palette:
+    primary: white
+    accent: red
+    scheme: preference
+  font:
+    text: Noto Sans
+    code: Source Code Pro
+
+markdown_extensions:
+  # 参考[MathJax](https://squidfunk.github.io/mkdocs-material/reference/mathjax/)，支持数学公式渲染
+  - pymdownx.arithmatex:
+      generic: true
+
+extra:
+  alternate:
+    - link: /
+      name: zh_cn - 简体中文
+  copyright: CC BY-NC-SA 4.0
+extra_javascript:
+  - https://cdnjs.loli.net/ajax/libs/pangu/3.3.0/pangu.min.js
+  - static/js/custom.js
+  - https://cdnjs.loli.net/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML
+extra_css:
+  - static/css/custom.css
+
+nav:
+  - 天文学:
+      - 太阳:
+          - astronomy/sun/index.md
+          - astronomy/sun/heliumflash.md
+          - astronomy/sun/solarcrisis.md
+          - astronomy/sun/solarstorm.md
+          - astronomy/sun/GravityAssist.md
+      - 月球:
+          - astronomy/moon/index.md
+          - astronomy/moon/lunarsurface.md
+          - astronomy/moon/gravitation.md
