@@ -4,7 +4,7 @@ site_author: United Earth Wiki Team
 
 repo_name: UE/UEG-Wiki
 repo_url: https://github.com/UnitedEarths/UEG-WIKI
-edit_uri: blob/master/docs/
+edit_uri: "https://oi-wiki.org/edit-landing/?ref="
 
 theme:
   name: "material"
@@ -17,7 +17,6 @@ theme:
     logo: ""
 
   features:
-    - navigation.tabs.sticky
     - search.suggest
     - search.highlight
     - search.share
@@ -55,10 +54,8 @@ markdown_extensions:
   - pymdownx.tasklist: # 复选框checklist
       custom_checkbox: true
 extra:
-  alternate:
-    - link: /
-      name: zh_cn - 简体中文
   copyright: CC BY-NC-SA 4.0
+
 extra_javascript:
   - https://cdnjs.loli.net/ajax/libs/pangu/3.3.0/pangu.min.js
   - static/js/custom.js
@@ -70,13 +67,13 @@ nav:
   - 天文学:
       - 太阳:
           - astronomy/sun/index.md
-          - astronomy/sun/heliumflash.md
-          - astronomy/sun/solarcrisis.md
-          - astronomy/sun/solarstorm.md
-          - astronomy/sun/gravityassist.md
+          - astronomy/sun/helium-flash.md
+          - astronomy/sun/solar-crisis.md
+          - astronomy/sun/solar-storm.md
+          - astronomy/sun/gravity-assist.md
       - 月球:
           - astronomy/moon/index.md
-          - astronomy/moon/lunarsurface.md
+          - astronomy/moon/lunar-surface.md
           - astronomy/moon/gravitation.md
           - astronomy/moon/2058-event.md
       - 半人马座α星:

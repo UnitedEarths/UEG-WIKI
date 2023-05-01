@@ -1,4 +1,9 @@
 window.MathJax = {
+    tex: {
+    inlineMath: [['$\\', '$'], ['$', '$'], ['\\(', '\\) ']],
+    packages: { '[+]': ['mhchem'] } //加载化学插件 如果只是数学可以不用加
+    },
+    loader: { load: ['[tex]/mhchem'] },
     tex2jax: {
       inlineMath: [ ["\\(","\\)"] ],
       displayMath: [ ["\\[","\\]"] ]
@@ -32,6 +37,3 @@ window.addEventListener('load', function() {
     }
 
 }, false);
-
-//添加空格
-pangu.spacingPageBody();
