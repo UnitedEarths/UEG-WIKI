@@ -2,6 +2,8 @@
 
 内容摘自 **《流浪地球 2 电影制作手记》**
 
+> 若有侵权，请联系 [unitedearth@126.com](mailto:unitedearth@126.com)
+
 ## Material color palette 颜色主题
 
 ### Color Scheme 配色方案
